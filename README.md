@@ -16,7 +16,7 @@ IT-RUN CRM utilizes the following dependencies:
 
 To get started with IT-RUN CRM, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/crm-itrun.git`.
+1. Clone the repository: `git clone https://github.com/bek77g/crm-itrun.git`.
 2. Change into the project directory: `cd crm-itrun`.
 3. Install the dependencies: `npm install`.
 4. Start the development server: `npm start`.
