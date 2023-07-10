@@ -1,5 +1,7 @@
 import React from 'react';
 import {useRoutes} from "react-router-dom";
+import Layout from "../components/Loyout/Layout";
+import Groups from "../pages/Groups/Groups";
 
 const RoutesA = () => {
     const routes = useRoutes([
@@ -10,11 +12,11 @@ const RoutesA = () => {
         },
         {
             path:"/",
-            // element: <Layout/>
+            element: <Layout/>,
             children :[
                 {
-                    path:"/Home",
-                    // element:<Home/>
+                    path:"/groups",
+                    element:<Groups/>
                 }
             ]
         }
