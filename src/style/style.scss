@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter",sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  background: #F9F9F9;
+}
+.app{
+  display: flex;
+  column-gap: 35px;
+  background: #F9F9F9;
+}
+.container__main{
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
+.container{
+  max-width: 1405px;
+  padding: 0 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+.simbl{
+  padding: 0;
+}
+
+@import "header";
+@import "aside";
+@import "groups";

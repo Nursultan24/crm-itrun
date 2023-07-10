@@ -1,9 +1,13 @@
 import React from 'react';
 import RoutesA from "./utils/RoutesA";
-
+import "./style/style.scss"
+import Sidebar from "./components/Sidebar/Sidebar";
 const App = () => {
     return (
-        <RoutesA/>
+        <div className="app">
+            <Sidebar/>
+            <RoutesA/>
+        </div>
     );
 };
 
